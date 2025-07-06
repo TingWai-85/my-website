@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon.png" />
+    <title>Ting Wai</title>
+</head>
+<body>
+    <div class="hero-section">
+        <nav>
+            <ul>
+                <li><a href="#hero"><img src="./assets/logo.png" alt="Logo" width="100px"></a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./assets/Resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero" id="hero">
+            <span class="description">
+                <h1>Hi, I'm <span id="name">Hong Ting Wai</span></h1>
+                <h2>Aspiring Software Engineer</h2>
+                <p>Turning ideas into scalable code</p>
+                <a href="#contact" class="button">Contact</a>
+                <a href="./assets/Resume.pdf" class="button" target="_blank">Resume</a>
+            </span>
+            <img src="./assets/self-avatar.webp" alt="self-avatar" />
+        </div>
+    </div>
+    <hr />
+    <div class="about" id="about">
+        <div class="self-description">
+            <img src="./assets/self-who-am-i.webp" alt="who am i">
+            <h2 class="big-title">Who am I</h2>
+            <p>
+                I’m a Computer Science (Cyber Security) graduate with a passion for software development and building secure, meaningful digital experiences. Throughout my academic journey, I’ve developed full-stack applications—from a weather app using React and APIs, to an AI-powered IP camera security tool for my Final Year Project. I enjoy working with technologies like Python, JavaScript, React, and SQL, and I’m always eager to explore how code can solve real-world problems.
+            </p>
+            <p>
+                Beyond the screen, I’m an avid badminton player and a big fan of anime—both of which keep me balanced, energized, and inspired in and out of the tech world. I'm currently seeking a junior software engineering role where I can grow, collaborate with passionate teams, and contribute to innovative solutions.
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="project" id="project">
+        <h2 class="big-title">Projects</h2>
+        <div class="project-container">
+            <div class="project-item-container">
+                <div class="card">
+                    <div class="front book-note">
+                        <img src="./assets/book-note.png">
+                        <span>
+                           <h3>Book Note Website</h3>
+                            <p>The Book Note Website is a full-stack web application that allows users to store and manage books they have read. For each book, users can leave a review and assign a rating — making it a personal reading log and review system all in one.</p>
+                        </span>
+                    </div>
+                    <div class="back">
+                        <h3>Features</h3>
+                        <span>
+                            <ul>
+                                <li>📖 Add books you've read</li>
+                                <li>📝 Write personal reviews for each book</li>
+                                <li>⭐ Rate books on a scale (e.g., 1 to 5)</li>
+                                <li>🔍 View a list of all stored books</li>
+                                <li>🧐 Search for the book you have read before stored in the database</li>
+                                <li>🧹 Edit or delete book entries</li>
+                            </ul>
+                        </span>
+                        <div>
+                            <a href="https://github.com/TingWai-85/book-notes" class="button" target="_blank">View Project</a>
+                            <a href="https://www.youtube.com/watch?v=vx5v4JAE2as" class="button" target="_blank">Video Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item-container">
+                <div class="card">
+                    <div class="front weather">
+                        <span>
+                            <h3>Weather App</h3>
+                            <p>The Weather App is a responsive, dynamic React web application that allows users to search any city and view detailed current weather conditions. It integrates with the OpenWeather and OpenUV APIs, and visually enhances the user experience with background and icon updates that reflect real-time weather.</p>
+                        </span>
+                        <img src="./assets/weather-app.png">
+                    </div>
+                    <div class="back">
+                        <h3>Features</h3>
+                        <span>
+                            <ul>
+                                <li>🔍 Search by City Name</li>
+                                <li>🌡️ Current Weather Data</li>
+                                <li>📈 5-Day Weather Forecast</li>
+                                <li>🌬️ Extra Weather Details</li>
+                                <li>🖼️ Auto-Updating Background & Icon</li>
+                                <li>📱 Responsive UI</li>
+                            </ul>
+                        </span>
+                        <div>
+                            <a href="https://github.com/TingWai-85/weather-app" class="button" target="_blank">View Project</a>
+                            <a href="https://www.youtube.com/watch?v=4M6QBpsI-Wg" class="button" target="_blank">Video Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item-container">
+                <div class="card">
+                    <div class="front ip-camera">
+                        <img src="./assets/ip-camera.png">
+                        <span>
+                            <h3>SecureTheEye - IP Camera Security Tool (FYP)</h3>
+                            <p>SecureTheEye is a comprehensive Python-based desktop application designed to enhance the security of IP cameras in local area networks. It incorporates intelligent tools for automatic IP camera discovery, vulnerability assessment via the CVE database, AI-based remediation recommendations, and real-time intrusion detection using machine learning techniques.</p>
+                        </span>
+                    </div>
+                    <div class="back">
+                        <h3>Features</h3>
+                        <span>
+                            <ul>
+                                <li>🔍 Auto Discovery of IP cameras on LAN</li>
+                                <li>📜 Vulnerability Lookup from the NVD CVE database</li>
+                                <li>🤖 AI Model for remediation suggestions</li>
+                                <li>📊 Report Generation in structured PDF format</li>
+                                <li>🚨 Real-Time IDS with audio alerts</li>
+                                <li>🎮 User-Friendly Interface built with PyQt5</li>
+                            </ul>
+                        </span>
+                        <div>
+                            <a href="https://github.com/TingWai-85/SecureIPCamera" class="button" target="_blank">View Project</a>
+                            <a href="https://www.youtube.com/watch?v=NCo-jZ-9DpU" class="button" target="_blank">Video Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item-container">
+                <div class="card">
+                    <div class="front">
+                        <h3>Others (School Assignment)</h3>
+                    </div>
+                    <div class="back">
+                        <h3>Assignment Categories</h3>
+                        <span>
+                            <ul>
+                                <li>🐍 Python – Individual Assignment</li>
+                                <li>☕ Java – Group Assignment</li>
+                                <li>💻 C# – Group Assignment</li>
+                                <li>🔧 C++ – Assignment</li>
+                            </ul>
+                        </span>
+                        <div>
+                            <a href="https://github.com/TingWai-85/UniAssignment" class="button" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="contact" id="contact">
+        <div class="self-contact">
+            <img src="./assets/self-calling.webp" alt="get in touch" />
+            <h2 class="big-title">Contact</h2>
+            <p>I'm always open to new opportunities and meaningful connections in the world of tech. Feel free to reach out if you’d like to collaborate, connect, or just have a chat!</p>
+            <div class="reach">
+                <a href="mailto:tingwai8028@gmail.com" title="tingwai8028@gmail.com"><img src="./assets/email.png" alt="email"></a>
+                <a href="https://wa.me/60172354436" target="_blank"><img src="./assets/phone-call.png" alt="phone-call"></a>
+            </div>
+            <div class="others">
+                <a href="https://www.facebook.com/tiger.hong.58" target="_blank"><img src="./assets/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/tingwai00/" target="_blank"><img src="./assets/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/ting-wai-55191927a" target="_blank"><img src="./assets/linkedin.png" alt="linkedin"></a>
+                <a href="https://github.com/TingWai-85" target="_blank"><img src="./assets/github.png" alt="github"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <nav>
+                <ul>
+                    <li>©2025 TingWai-85</li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./assets/Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
